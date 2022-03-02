@@ -12,5 +12,5 @@ Repository ini berisikan dokumentasi file dan berkas keperluan pengembangan webs
 5. Daftar
 6. Dashboard
 
-## Dokomentasi
+## Dokumentasi
 ![Home Page](screenshoot/homepage.png)
