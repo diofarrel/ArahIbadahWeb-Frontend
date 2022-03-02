@@ -1,0 +1,130 @@
+.hero-daftar{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.hero-daftar img{
+    width: 250px;
+    background-size: cover;
+}
+
+.hero-daftar h1{
+    font-size: 34px;
+    margin-bottom: -10px;
+}
+
+.hero-daftar p{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.form-group-daftar{
+    /* background-color: red; */
+    width: 20%;
+    margin: auto;
+}
+
+.form-group-daftar form label{
+    font-size: 16px;
+    display: inline-block;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.form-group-daftar form input{
+    display: block;
+    background-color: rgb(238, 238, 238);
+    border-radius: 12px;
+    border: 0;
+    width: 280px;
+    height: 45px;
+    margin-bottom: -20px;
+}
+
+.form-group-daftar form input[type="text"], input[type="password"]{
+    font-family: Poppins;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.form-group-daftar form select{
+    display: block;
+    background-color: rgb(238, 238, 238);
+    border-radius: 12px;
+    border: 0;
+    width: 300px;
+    height: 45px;
+    margin-bottom: -20px;
+}
+
+.form-group-daftar form select[name="city"]{
+    font-family: Poppins;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.form-group-daftar .gender .cwk{
+    display: block;
+    font-size: 14px;
+    margin-top: -33px;
+    margin-left: 40px;
+}
+
+.form-group-daftar .gender input{
+    display: block;
+    width: 15px;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+.form-group-daftar .verif{
+    background-color: rgb(238, 238, 238);
+    padding: 30px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 34px;
+}
+
+.form-group-daftar textarea{
+    display: block;
+    background-color: rgb(238, 238, 238);
+    border-radius: 12px;
+    border: 0;
+    width: 260px;
+    height: 45px;
+    margin-bottom: -20px;
+}
+
+.form-group-daftar textarea[name="verification"]{
+    font-size: 16px;
+    font-family: Poppins;
+    padding: 20px;
+}
+
+.form-group-daftar input[type="checkbox"]{
+    width: 15px;
+    display: block;
+    margin-top: -10px;
+}
+
+.form-group-daftar .agree{
+    display: block;
+    margin-top: -35px;
+    margin-left: 20px;
+}
+
+.form-group-daftar button[type="submit"]{
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 500;
+    color: white;
+    background-color: orange;
+    display: block;
+    border-radius: 12px;
+    border: 0px;
+    width: 300px;
+    height: 45px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}

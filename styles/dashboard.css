@@ -1,0 +1,40 @@
+.hero-dashboard{
+    float: left;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.hero-dashboard img{
+    width: 350px;
+}
+
+.hero-dashboard h1{
+    font-size: 34px;
+    margin-bottom: -5px;
+}
+
+.hero-dashboard p{
+    font-size: 16px;
+}
+
+.progress{
+    background-color: rgb(245, 245, 245);
+    width: 500px;
+    padding: 30px;
+    padding-left: 50px;
+    border-radius: 16px;
+    margin-top: 200px;
+    margin-left: 750px;
+}
+
+progress{
+    display: block;
+}
+
+progress::-webkit-progress-bar{
+    background-color: white;
+}
+
+progress::-webkit-progress-value {
+    background-color: #039603;
+}

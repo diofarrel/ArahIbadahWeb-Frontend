@@ -1,0 +1,337 @@
+/* Menggunakan font pada folder fonts
+@font-face {
+    font-family: poppinsBold;
+    src: url('../fonts/Poppins-Bold.ttf');
+} */
+
+h1,h2,h4 {
+    font-family: Poppins;
+    font-weight: 700;
+}
+
+label {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+p,li,th,td {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+footer {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+/*class body untuk merubah tampilan dari ukuran screen web*/
+body {
+    margin: 0px;
+}
+
+.container {
+    width: 90%;             /*mengatur lebar dari class container*/
+    overflow: hidden;       /*overflow digunakan untuk mengatur lebar konten*/
+    margin: auto;           /*meletakkan object di tengah2 halaman*/
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    overflow: hidden;
+    /* box-shadow: 0px 4px 20px rgb(213, 213, 213); */
+    /* background-color: gray; */
+}
+
+.header .container .logo {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 24px;            /*merubah ukuran font*/
+    float: left;                /*float digunakan untuk mengatur posisi dr object*/
+    margin-top: 18px;
+}
+
+.header .gambarlogo {
+    width: 60px;
+    height: 60px;
+    float: left;
+    padding-top: 5px;
+}
+
+.header .container .navigation {
+    overflow: hidden;
+    margin-top: 25px;       /*mengatur jarak object hanya bagian atas aja*/
+    float: right;
+}
+
+.header .container .navigation li {
+    font-family: Poppins;   /*menggunakan URL Font yang dipanggil di index.html*/
+    font-weight: 500;
+    font-size: 16px;
+    display: inline-block;        /*berfungsi untuk mengilangkan icon list*/
+}
+
+.header .container .navigation li a {
+    float: right;
+    color: black;
+    text-decoration: none;  /*berfungsi untuk menghilangkan underline pada text*/
+    padding-left: 25px;
+}
+
+.header .container .navigation li a:hover {
+    color: orange;
+}
+
+.gender, .agree {
+    font-family: tajawal;
+    font-size: 16px;
+}
+
+.title {
+    display: inline-block;
+    width: 40%;
+    margin-top: 90px;
+    margin-left: 58px;
+    /* background-color: aqua; */
+}
+
+.title h1 {
+    font-size: 48px;
+}
+
+.title p {
+    font-size: 16px;
+    margin-top: -20px;
+}
+
+.btn-start a{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    background: orange;
+    width: 200px;
+    border-radius: 12px;
+    display: inline-block;
+    padding: 15px;
+    padding-left: 100px;
+    margin: 20px;
+    margin-left: 0px;
+}
+
+.btn-start a:hover{
+    background: rgb(255, 177, 33);
+    box-shadow: 0px 4px 20px rgb(213, 213, 213);
+}
+
+.hero {
+    width: 630px;
+    height: 450px;
+    background-image: url('../images/objects.png');
+    background-size: cover;
+    float: right;
+    margin-top: 80px;
+    margin-right: 50px;
+}
+
+.popular {
+    margin-top: 120px;
+}
+
+.popular p{
+    font-size: 16px;
+    color: black;
+}
+
+.popular a{
+    font-family: Poppins;
+    color: black;
+    float: right;
+    margin-top: -45px;
+    margin-right: 60px;
+}
+
+.popular a:hover{
+    color: orange;
+}
+
+.container .popular h2{
+    font-size: 34px;
+}
+
+.container .popular p{
+    margin-top: -20px;
+}
+
+.container .categories{
+    display: inline-block;
+}
+
+.container .categories .title-produk{
+    margin-top: -210px;
+    margin-left: 230px;
+}
+
+.container .categories .title-produk a{
+    text-decoration: none;
+    color: black;
+}
+
+.container .categories .title-produk h2{    
+    font-size: 20px;
+    margin-bottom: -15px;
+}
+
+.container .categories .title-produk .price{
+    font-size: 22px;
+}
+
+.container .categories .title-produk .btn-cek a{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    background: orange;
+    width: 280px;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+    margin: 15px;
+    margin-top: 45px;
+    margin-left: 0px;
+}
+
+.container .categories .title-produk .btn-cek a:hover{
+    background: rgb(255, 177, 33);
+    box-shadow: 0px 2px 10px rgb(213, 213, 213);
+}
+
+.container .categories .box-1{
+    background-color: rgb(245, 245, 245);
+    width: 550px;
+    border-radius: 16px;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.container .categories .box-1 .images{
+    width: 200px;
+    height: 200px;
+    border-radius: 14px;
+}
+
+.container .categories .box-2{
+    background-color: rgb(245, 245, 245);
+    width: 550px;
+    border-radius: 16px;
+    padding: 30px;
+    margin-top: -268px;
+    margin-left: 700px;
+}
+
+.container .categories .box-2 .images{
+    width: 200px;
+    height: 200px;
+    border-radius: 14px;
+}
+
+.container .categories .box-3{
+    background-color: rgb(245, 245, 245);
+    width: 550px;
+    border-radius: 16px;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.container .categories .box-3 .images{
+    width: 200px;
+    height: 200px;
+    border-radius: 14px;
+}
+
+.container .categories .box-4{
+    background-color: rgb(245, 245, 245);
+    width: 550px;
+    border-radius: 16px;
+    padding: 30px;
+    margin-top: -268px;
+    margin-left: 700px;
+}
+
+.container .categories .box-4 .images{
+    width: 200px;
+    height: 200px;
+    border-radius: 14px;
+}
+
+.branding{
+    margin-top: 120px;
+    text-align: center;
+}
+
+.branding h2{
+    font-size: 34px;
+}
+
+.branding p{
+    font-size: 16px;
+    margin-top: -20px;
+}
+
+.branding .image-branding{
+    width: 600px;
+    height: 600px;
+    margin-top: 30px;
+}
+
+.get-started{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.get-started h2{
+    font-size: 34px;
+}
+
+.get-started p{
+    font-size: 16px;
+    margin-top: -20px;
+}
+
+.btn-get-started a{
+    background: orange;
+    width: 400px;
+    border-radius: 14px;
+    display: inline-block;
+    font-family: Poppins;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+.btn-get-started a:hover{
+    background: rgb(255, 177, 33);
+    box-shadow: 0px 2px 10px rgb(213, 213, 213);
+}
+
+.footer {
+    background-color: rgb(96, 96, 96);
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    margin-top: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* padding-top: 40px; */
+}

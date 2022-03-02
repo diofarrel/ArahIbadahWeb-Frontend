@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page Arah Ibadah - by DioFa</title>
+    <!-- <style>
+        .fitur{
+            background: lightgray;      /*ini namanya internal CSS yaitu menambahkan script css di dalam body HTML*/
+        }
+    </style> -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">       <!--input URL Font-->
+</head>
+
+<body>
+
+    <!-- <nav> NAVIGATION berfungsi untuk membuat navigation pada bagian atas halaman website-->
+    <!-- <img> IMAGE digunakan untuk load image dari folder-->
+    <!-- height dan widht berfungsi untuk mengatur lebar dan tinggi gambar-->
+    <!-- alt berfungsi untuk menjadi alternatif apabila gambar tidak berhasil terload-->
+    <nav class="header">
+        <div class="container">
+            <a href="index.html"><img title="logo arah ibadah" class="gambarlogo" src="images/logoarahibadah.jpg" alt="logoarahibadah"></a>
+            <p title="Arah Ibadah" class="logo">Arah Ibadah</p> <!--memberikan fungsi style pada paragraph merupakan bentuk INLINE CSS-->
+            <ul class="navigation">
+                <li>
+                    <a href="home.html">Home</a>
+                </li>
+                <li>
+                    <a href="katalog.html">Katalog</a>
+                </li>
+                <li>
+                    <a href="about-us.html">About Us</a>
+                </li>
+                <li>
+                    <a href="login.html">Log In</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- <section> SECTION digunakan untuk membagi konten per section-->
+    <!-- di dalam <section> wajib memiliki header-->    
+    <section class="container">
+        
+        <!-- <div> berfungsi untuk membungkus konten ke dalam sebuah grup-->
+        <!-- <div> kedudukannya sama seperti <section> tetapi posisinya saja yang berbeda, jika <div> posisinya ada di dalam sebuah <section> -->
+        <div class="title">
+            <!-- <h> HEADER berfungsi untuk membuat header. Punya range dari 1-6 -->
+            <h1>Selamat Datang <br> di Arah Ibadah</h1>
+            <p>     <!-- <p> PARAGRAPH berfungsi untuk membuat paragraf baru-->
+                Arah Ibadah menyediakan kebutuhan ibadah anda selama <i>traveling</i> Ibadah dimana saja dengan Arah Ibadah.     <!-- <i> ITALIC berfungsi untuk meng-italic suatu kata/kalimat -->
+                Segera dapatkan produk produk menarik yang disediakan oleh Arah Ibadah      <!-- <br> BREAK berfungsi untuk mengganti baris paragraph -->
+            </p>
+            <div class="btn-start">
+                <a href="katalog.html">Lihat Katalog</a>
+            </div>
+        </div>
+        
+        <div class="hero"></div>
+    </section>
+
+    <section>
+        <div>
+            <h2>Produk-produk populer</h2>
+        
+            <!-- <ol> ORDERED LIST berfungsi untuk membuat list pada paragraph secara urutan angka-->
+            <ol>
+        
+                <!-- <li> LIST untuk membuat list baru-->
+                <li><h4>Sajadah Seri Daun</h4></li>  
+        
+                <!-- <ul> UNORDERED LIST berfungsi untuk membuat list pada paragraph tidak secara urutan angka-->
+                <ul type="square">    
+                    <li>Sajadah traveling ringkas yang memiliki tema corak daun</li>
+                    <li>IDR 100.000</li>
+                    <li>Cek Barang di <a target="_blank" href="https://shopee.co.id/SAJADAH-TRAVEL-PRAKTIS-DISERTAI-KANTONG-SERI-DAUN-i.338299402.5864841459">Shopee</a></li>
+                    <!-- <a> ANCHOR HYPERLINK berfungsi untuk membuat hyperlink baru -->
+                    <!-- target="_blank" berfungsi untuk membuka link pada tab baru-->
+                    <!-- href berfungsi untuk menyimpan hyperlink-->
+                </ul>
+                
+                <li><h4>Sajadah Seri Biru</h4></li>
+                <ul type="square">
+                    <li>Sajadah traveling ringkas yang memiliki tema corak biru</li>
+                    <li>IDR 150.000</li>
+                    <li>Cek Barang di <a target="_blank" href = "https://shopee.co.id/SAJADAH-TRAVEL-PRAKTIS-DISERTAI-KANTONG-SERI-BIRU-i.338299402.3465076620">Shopee</a></li>
+                </ul>
+                
+                <li><h4>Sajadah Seri Flora</h4></li>
+                <ul type="square">
+                    <li>Sajadah traveling ringkas yang memiliki tema corak flora</li>
+                    <li>IDR 100.000</li> 
+                    <li>Cek Barang di <a target="_blank" href = "https://shopee.co.id/SAJADAH-TRAVEL-PRAKTIS-DISERTAI-KANTONG-SERI-FLORA-i.338299402.7772134004">Shopee</a></li>    
+                </ul>
+            </ol>
+        </div>
+    </section>
+
+    <br><br><br>
+
+    <!-- <footer> berfungsi untuk membuat bagian footer website-->
+    <footer>
+        2018-2021 Arah Ibadah - All rights reserved - Love from Indonesia
+    </footer>
+    
+</body>
+
+</html>

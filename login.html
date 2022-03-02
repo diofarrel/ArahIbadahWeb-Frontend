@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In - Arah Ibadah</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="header">
+        <div class="container">
+            <a href="index.html"><img title="logo arah ibadah" class="gambarlogo" src="images/logoarahibadah.jpg" alt="logoarahibadah"></a>
+            <p title="Arah Ibadah" class="logo"><b>Arah Ibadah</b></p>
+            <ul class="navigation">
+                <li>
+                    <a href="home.html">Home</a>
+                </li>
+                <li>
+                    <a href="katalog.html">Katalog</a>
+                </li>
+                <li>
+                    <a href="about-us.html">About Us</a>
+                </li>
+                <li>
+                    <a href="login.html">Log In</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section>
+        <div class="hero-login">
+            <img src="images/hi.jpg" alt="hello-illustration">
+            <h1>
+                Hello, Welcome Back !
+            </h1>
+            <p>
+                Please insert your email and password to login into your account
+            </p>
+        </div>
+        <div class="form-group-login">           
+            <!-- <form> berfungsi untuk membuat kolom form untuk menerima input user-->
+            <!-- <input> berfungsi untuk menerima input pada kolom-->
+            <!-- type berfungsi untuk mengatur tipe data input dari user. EX : text -> untuk text, password -> untuk password -> sehingga inputan disamarkan-->
+            <form action="dashboard.html">
+                <label for="email">Email</label>
+                <br>
+                <input type="text" id="email"/>
+                <br><br>
+                <label for="pass">Password</label>
+                <br>
+                <input type="password" id="pass"/>
+                <br><br>
+                <button type="submit" class="btn-submit">Log In</button>
+                <button type="reset" class="btn-reset">Kosongkan</button>             
+            </form>
+            <br>
+            <a href="signup.html" class="btn-create">Create Account</a>
+        </div>
+    </section>
+
+    <br><br><br>
+    <footer class="footer">
+        2018-2021 Arah Ibadah - All rights reserved - Love from Indonesia
+    </footer>
+</body>
+
+</html>

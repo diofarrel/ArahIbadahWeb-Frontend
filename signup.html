@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account - Arah Ibadah</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/signup.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="header">
+        <div class="container">
+            <a href="index.html"><img title="logo arah ibadah" class="gambarlogo" src="images/logoarahibadah.jpg" alt="logoarahibadah"></a>
+            <p title="Arah Ibadah" class="logo"><b>Arah Ibadah</b></p>
+            <ul class="navigation">
+                <li>
+                    <a href="home.html">Home</a>
+                </li>
+                <li>
+                    <a href="katalog.html">Katalog</a>
+                </li>
+                <li>
+                    <a href="about-us.html">About Us</a>
+                </li>
+                <li>
+                    <a href="login.html">Log In</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section>
+        <div class="hero-daftar">
+            <img src="images/hi.jpg" alt="hello-illustration">
+            <h1>
+                Let's Create Your Account
+            </h1>
+            <p>
+                Please insert your data below
+            </p>
+        </div>
+        <div class="form-group-daftar">           
+            <form action="dashboard.html">
+                <label for="email">Email</label><br>
+                <input type="text" id="email"/>
+                
+                <br><br>
+                
+                <label for="pass">Password</label><br>
+                <input type="password" id="pass"/>
+                
+                <br><br>
+                
+                <label for="city">Asal Kota</label><br>
+                <select name="city" id="city">
+                    <option>Surabaya</option>
+                    <option>Sidoarjo</option>
+                    <option>Malang</option>
+                </select>
+                
+                <br><br>
+
+                <div id="gender" class="gender">
+                    <label for="gender">Jenis Kelamin</label><br>
+                    <input type="radio" id="cowok" name="gender"><label for="cowok" class="cwk">Laki-laki</label>
+                    <input type="radio" id="cewek" name="gender"><label for="cewek" class="cwk">Perempuan</label>
+                </div>
+
+                <p class="verif"><b>VerIfiCat10n</b><p>
+                <label for="verification">Masukkan Kode Diatas</label>
+                <textarea name="verification" id="verification"></textarea>
+
+                <br><br>
+                
+                <input type="checkbox" id="agree">
+                <label class="agree" for="agree">Saya setuju dengan semua persyaratan</label>
+                
+                <br><br>
+
+                <button type="submit">Create Account</button>
+            </form>
+        </div>
+    </section>
+
+    <br><br><br>
+    <footer class="footer">
+        2018-2021 Arah Ibadah - All rights reserved - Love from Indonesia
+    </footer>
+</body>
+</html>
